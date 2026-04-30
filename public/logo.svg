@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bronze" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C07A5C" />
+      <stop offset="100%" stop-color="#9C4A2F" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(10, 15)">
+    <!-- Top P Shape -->
+    <path d="M 12 0 L 55 0 C 80 0, 80 26, 55 26 L 27 26 Z" fill="url(#bronze)"/>
+    <!-- Bottom Stem -->
+    <polygon points="23,30 38,30 14,56 0,56" fill="url(#bronze)"/>
+  </g>
+  
+  <!-- PRECISIV Text -->
+  <text x="100" y="42" font-family="'Outfit', sans-serif" font-weight="800" font-size="32" fill="#E8EAED" letter-spacing="3">PRECISIV</text>
+  
+  <!-- SOLUTIONS with Accent Lines -->
+  <line x1="102" y1="60" x2="130" y2="60" stroke="#9C4A2F" stroke-width="2"/>
+  <text x="140" y="64" font-family="'Inter', sans-serif" font-weight="600" font-size="12" fill="#E8EAED" letter-spacing="6">SOLUTIONS</text>
+  <line x1="264" y1="60" x2="292" y2="60" stroke="#9C4A2F" stroke-width="2"/>
+</svg>
