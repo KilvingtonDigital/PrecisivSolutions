@@ -19,7 +19,7 @@ export default function Contact() {
                 <div className="feature-icon" style={{ width: '50px', height: '50px', marginBottom: 0 }}><Mail size={20} /></div>
                 <div>
                   <h4 style={{ marginBottom: '0.25rem' }}>Email Us</h4>
-                  <p style={{ color: 'var(--text-muted)' }}>hello@precisivsolutions.com</p>
+                  <p style={{ color: 'var(--text-muted)' }}>hello@precisivsolutions.ai</p>
                 </div>
               </div>
               

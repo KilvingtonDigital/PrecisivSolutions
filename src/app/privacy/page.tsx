@@ -26,7 +26,7 @@ export default function Privacy() {
 
           <h3 style={{ color: 'var(--text-main)', marginTop: '2.5rem', marginBottom: '1rem', fontSize: '1.5rem' }}>4. Contact Us</h3>
           <p style={{ marginBottom: '1.5rem', lineHeight: 1.8 }}>
-            If you have any questions about this Privacy Policy, please contact us at privacy@precisivsolutions.com.
+            If you have any questions about this Privacy Policy, please contact us at privacy@precisivsolutions.ai.
           </p>
         </div>
       </div>
