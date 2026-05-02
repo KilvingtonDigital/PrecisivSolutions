@@ -42,20 +42,22 @@ export default function Contact() {
           </div>
 
           <div style={{ background: 'var(--bg-card)', padding: '3rem', borderRadius: '24px', border: '1px solid var(--glass-border)' }}>
-            <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+            <form action="https://formsubmit.co/ricky@kilvingtondigital.com" method="POST" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              <input type="hidden" name="_subject" value="New Contact Form Submission - Precisiv Solutions" />
+              <input type="hidden" name="_captcha" value="false" />
               <div>
                 <label style={{ display: 'block', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>Name</label>
-                <input type="text" style={{ width: '100%', padding: '0.75rem 1rem', borderRadius: '8px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--glass-border)', color: 'white' }} placeholder="Your name" />
+                <input type="text" name="name" required style={{ width: '100%', padding: '0.75rem 1rem', borderRadius: '8px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--glass-border)', color: 'white' }} placeholder="Your name" />
               </div>
               <div>
                 <label style={{ display: 'block', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>Email</label>
-                <input type="email" style={{ width: '100%', padding: '0.75rem 1rem', borderRadius: '8px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--glass-border)', color: 'white' }} placeholder="you@company.com" />
+                <input type="email" name="email" required style={{ width: '100%', padding: '0.75rem 1rem', borderRadius: '8px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--glass-border)', color: 'white' }} placeholder="you@company.com" />
               </div>
               <div>
                 <label style={{ display: 'block', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>Message</label>
-                <textarea rows={4} style={{ width: '100%', padding: '0.75rem 1rem', borderRadius: '8px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--glass-border)', color: 'white' }} placeholder="How can we help?"></textarea>
+                <textarea name="message" required rows={4} style={{ width: '100%', padding: '0.75rem 1rem', borderRadius: '8px', background: 'rgba(0,0,0,0.2)', border: '1px solid var(--glass-border)', color: 'white' }} placeholder="How can we help?"></textarea>
               </div>
-              <button type="button" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>Send Message</button>
+              <button type="submit" className="btn btn-primary" style={{ marginTop: '1rem', justifyContent: 'center' }}>Send Message</button>
             </form>
           </div>
         </div>
